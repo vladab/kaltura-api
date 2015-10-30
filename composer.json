@@ -1,0 +1,23 @@
+{
+    "name": "vladab/kaltura-api",
+    "type": "library",
+    "description": "Kaltura API",
+    "keywords": ["kaltura","api"],
+    "homepage": "http://www.kaltura.org",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Kaltura",
+            "homepage": "http://www.kaltura.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
+}
